@@ -96,7 +96,7 @@ if (is_post_request()) {
         <div class="section-heading left-align">
             <span class="section-tag">Create Account</span>
             <h1>Register</h1>
-            <p>Create a new user account to request car services and follow your service status.</p>
+            <p>Create your account to request service and track updates.</p>
         </div>
 
         <?php render_message_box($errors, 'error'); ?>
@@ -164,7 +164,6 @@ if (is_post_request()) {
         </form>
 
         <p class="form-note">
-            Technician and admin roles are managed separately.
             This page creates standard <strong>user</strong> accounts only.
         </p>
     </section>

@@ -19,14 +19,13 @@ $flashMessage = get_flash_message();
             <span class="section-tag">Car Service Platform</span>
             <h1>FixNow Cars</h1>
             <p>
-                FixNow Cars helps drivers request service, technicians manage repairs,
-                and admins keep every request on track.
+                Book car service, follow progress, and manage every request in one place.
             </p>
             <div class="hero-actions">
                 <?php if (is_logged_in()): ?>
                     <a class="btn" href="<?php echo escape(role_dashboard_path(current_user_role(), $basePath)); ?>">Open Dashboard</a>
                 <?php else: ?>
-                    <a class="btn" href="<?php echo escape($basePath . 'register.php'); ?>">Create Account</a>
+                    <a class="btn" href="<?php echo escape($basePath . 'register.php'); ?>">Get Started</a>
                     <a class="btn btn-secondary" href="<?php echo escape($basePath . 'login.php'); ?>">Login</a>
                 <?php endif; ?>
             </div>
@@ -50,14 +49,14 @@ $flashMessage = get_flash_message();
             <span class="section-tag">Workflow</span>
             <h2>How It Works</h2>
             <p class="hero-card-copy">
-                Every request moves through one clear flow, from booking and assignment to completion and receipt records.
+                Each request moves through one clear flow, from booking and assignment to completion and payment records.
             </p>
             <ul class="feature-list compact-list">
                 <li>Users submit service requests for their saved cars</li>
                 <li>Technicians accept jobs and update progress, notes, and prices</li>
                 <li>Admins monitor requests, services, reports, and receipts</li>
             </ul>
-            <p class="hero-card-note">Each role has a focused dashboard with the tools needed for daily tasks.</p>
+            <p class="hero-card-note">Each role has a focused dashboard with the tools needed to get work done.</p>
         </div>
     </section>
 
@@ -65,7 +64,7 @@ $flashMessage = get_flash_message();
         <div class="section-heading">
             <span class="section-tag">Core Roles</span>
             <h2>Who uses FixNow Cars?</h2>
-            <p>Three roles keep the service process moving from start to finish.</p>
+            <p>Three roles keep the service process moving smoothly from start to finish.</p>
         </div>
 
         <div class="card-grid">
@@ -90,7 +89,7 @@ $flashMessage = get_flash_message();
             <h2>Built with familiar web tools</h2>
             <p>
                 The site runs on PHP, MySQL, HTML, CSS, sessions, validation,
-                and basic JavaScript to support the full service flow.
+                and basic JavaScript to support the full workflow.
             </p>
         </div>
 

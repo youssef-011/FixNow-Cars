@@ -67,7 +67,7 @@ if (is_post_request()) {
         <div class="section-heading left-align">
             <span class="section-tag">Account Access</span>
             <h1>Login</h1>
-            <p>Use your registered FixNow Cars account to access the correct dashboard for your role.</p>
+            <p>Sign in to continue to your dashboard.</p>
         </div>
 
         <?php render_message_box($errors, 'error'); ?>
@@ -100,8 +100,8 @@ if (is_post_request()) {
         </form>
 
         <div class="helper-panel">
-            <h3>Seeded Admin Account</h3>
-            <p>After importing the SQL file, you can test the seeded admin account using the password: <strong>password</strong></p>
+            <h3>Admin Test Account</h3>
+            <p>After importing the database, you can sign in with the seeded admin account using the password: <strong>password</strong></p>
             <ul class="feature-list compact-list">
                 <li>Admin: admin@fixnow.com</li>
             </ul>
