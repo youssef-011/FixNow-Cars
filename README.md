@@ -18,7 +18,7 @@ FixNow Cars is a car service management website built with PHP and MySQL. Driver
 - reports and receipts
 - admin-side technician account creation
 
-## Folder Overview
+## Project Structure
 
 ```text
 FixNow Cars/
@@ -28,6 +28,7 @@ FixNow Cars/
 │   └── js/
 ├── config/
 ├── database/
+├── docs/
 ├── includes/
 ├── technician/
 ├── user/
@@ -42,6 +43,7 @@ FixNow Cars/
 - `user/`, `technician/`, and `admin/` contain the role pages.
 - `assets/` stores the shared CSS and JavaScript files.
 - `database/fixnow_cars.sql` contains the schema and seed data.
+- `docs/` includes the project outline and testing checklist.
 
 ## Run Locally
 
@@ -60,6 +62,11 @@ FixNow Cars/
 - Password: `password`
 
 Technician accounts can be created from the admin panel on the `Technicians` page.
+
+## Project Docs
+
+- [Documentation Outline](docs/documentation_outline.md)
+- [Testing Checklist](docs/testing_checklist.md)
 
 ## Notes
 
