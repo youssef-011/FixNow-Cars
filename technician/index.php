@@ -67,7 +67,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Technician Area</span>
                 <h1>Welcome, <?php echo escape(current_user_name()); ?></h1>
-                <p>Use this dashboard to review available service requests and manage the jobs assigned to you.</p>
+                <p>Check available service requests and manage the jobs assigned to you.</p>
             </div>
             <span class="status-pill">Role: Technician</span>
         </div>
@@ -89,17 +89,17 @@ if ($db === null) {
                 <article class="dashboard-card">
                     <h3>Assigned Jobs</h3>
                     <p class="card-value"><?php echo escape((string) $assignedJobsCount); ?></p>
-                    <p class="card-caption">Request(s) assigned to your technician account.</p>
+                    <p class="card-caption">Jobs assigned to your account.</p>
                 </article>
                 <article class="dashboard-card">
                     <h3>Active Jobs</h3>
                     <p class="card-value"><?php echo escape((string) $activeJobsCount); ?></p>
-                    <p class="card-caption">Job(s) that are accepted or still in progress.</p>
+                    <p class="card-caption">Jobs that are accepted or still in progress.</p>
                 </article>
                 <article class="dashboard-card">
                     <h3>Available Requests</h3>
                     <p class="card-value"><?php echo escape((string) $availableRequestsCount); ?></p>
-                    <p class="card-caption">Pending request(s) are still available for technicians to accept.</p>
+                    <p class="card-caption">Pending requests available to accept.</p>
                 </article>
             </div>
         </section>
@@ -109,21 +109,21 @@ if ($db === null) {
         <div class="card-grid">
             <article class="dashboard-card">
                 <h3>Available Requests</h3>
-                <p>Review pending service requests that do not yet have a technician assigned.</p>
+                <p>Review pending requests that do not yet have a technician assigned.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="available_requests.php">Open Requests</a>
                 </div>
             </article>
             <article class="dashboard-card">
                 <h3>My Jobs</h3>
-                <p>Track the requests assigned to you and update their progress and pricing details.</p>
+                <p>Track assigned jobs and update progress, notes, and pricing.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="my_jobs.php">Open My Jobs</a>
                 </div>
             </article>
             <article class="dashboard-card">
                 <h3>Profile</h3>
-                <p>Keep your technician account information updated so admins and users can identify you correctly.</p>
+                <p>Keep your contact details up to date.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="profile.php">Open Profile</a>
                 </div>

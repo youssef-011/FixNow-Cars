@@ -76,7 +76,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Users</span>
                 <h1>Registered Users</h1>
-                <p>Review all registered user accounts and their contact details.</p>
+                <p>Review registered user accounts and their contact details.</p>
             </div>
             <span class="status-pill">Admin Monitoring</span>
         </div>

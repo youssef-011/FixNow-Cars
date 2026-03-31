@@ -200,7 +200,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Requests</span>
                 <h1>All Service Requests</h1>
-                <p>Review all service requests, use filters, and open any request for full details.</p>
+                <p>Review all service requests, apply filters, and open any request for full details.</p>
             </div>
             <span class="status-pill">Admin Monitoring</span>
         </div>

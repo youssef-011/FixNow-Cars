@@ -154,7 +154,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Receipts</span>
                 <h1>Receipts and Payments</h1>
-                <p>Review generated receipts. Completed requests with final prices can create receipts automatically or be generated here if needed.</p>
+                <p>Review saved receipts and generate any missing ones for completed requests when needed.</p>
             </div>
             <span class="status-pill">Admin Records</span>
         </div>

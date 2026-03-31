@@ -62,7 +62,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">User Area</span>
                 <h1>Welcome, <?php echo escape(current_user_name()); ?></h1>
-                <p>Use this dashboard to manage your profile, cars, and service requests in one place.</p>
+                <p>Manage your profile, cars, and service requests from one place.</p>
             </div>
             <span class="status-pill">Role: User</span>
         </div>
@@ -85,17 +85,17 @@ if ($db === null) {
                 <article class="dashboard-card">
                     <h3>My Cars</h3>
                     <p class="card-value"><?php echo escape((string) $carCount); ?></p>
-                    <p class="card-caption">Car(s) saved in your account and ready for future service requests.</p>
+                    <p class="card-caption">Saved cars ready for future service requests.</p>
                 </article>
                 <article class="dashboard-card">
                     <h3>All Requests</h3>
                     <p class="card-value"><?php echo escape((string) $requestCount); ?></p>
-                    <p class="card-caption">Total request(s) you have created through the platform.</p>
+                    <p class="card-caption">Service requests you have submitted.</p>
                 </article>
                 <article class="dashboard-card">
                     <h3>Pending Requests</h3>
                     <p class="card-value"><?php echo escape((string) $pendingCount); ?></p>
-                    <p class="card-caption">Request(s) are still waiting for technician action.</p>
+                    <p class="card-caption">Requests still waiting for technician action.</p>
                 </article>
             </div>
         </section>
@@ -105,14 +105,14 @@ if ($db === null) {
         <div class="card-grid">
             <article class="dashboard-card">
                 <h3>Profile</h3>
-                <p>Review and update your basic account information such as name, phone number, and address.</p>
+                <p>Review and update your contact information.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="profile.php">Open Profile</a>
                 </div>
             </article>
             <article class="dashboard-card">
                 <h3>Cars</h3>
-                <p>Add your cars, update car information, and keep your saved vehicle list organized.</p>
+                <p>Add cars, update details, and keep your vehicle list organized.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="my_cars.php">Manage Cars</a>
                 </div>
@@ -126,7 +126,7 @@ if ($db === null) {
             </article>
             <article class="dashboard-card">
                 <h3>My Requests</h3>
-                <p>Track all of your submitted service requests and open the details of each request.</p>
+                <p>Track your service requests and open the details of each one.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="my_requests.php">View Requests</a>
                 </div>

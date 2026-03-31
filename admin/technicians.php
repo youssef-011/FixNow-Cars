@@ -151,7 +151,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Technicians</span>
                 <h1>Technician Accounts</h1>
-                <p>Create technician accounts and review the ones already available.</p>
+                <p>Create technician accounts and review existing ones.</p>
             </div>
             <span class="status-pill">Admin Monitoring</span>
         </div>
@@ -175,7 +175,7 @@ if ($db === null) {
 
         <section class="content-card">
             <h2>Add Technician</h2>
-            <p class="form-note">Create a technician account so it can be used immediately for login and job handling.</p>
+            <p class="form-note">Create a technician account that can be used right away for login and job handling.</p>
 
             <form class="auth-form" action="technicians.php" method="post">
                 <input type="hidden" name="action" value="create_technician">

@@ -61,7 +61,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Admin Area</span>
                 <h1>Welcome, <?php echo escape(current_user_name()); ?></h1>
-                <p>Use this dashboard to monitor users, technicians, services, and all service requests.</p>
+                <p>Monitor accounts, services, and service requests from one dashboard.</p>
             </div>
             <span class="status-pill">Role: Admin</span>
         </div>
@@ -91,7 +91,7 @@ if ($db === null) {
                 <article class="dashboard-card">
                     <h3>Total Technicians</h3>
                     <p class="card-value"><?php echo escape((string) $totalTechnicians); ?></p>
-                    <p class="card-caption">Technician account(s) available to accept and update jobs.</p>
+                    <p class="card-caption">Technician accounts available for job handling.</p>
                 </article>
                 <article class="dashboard-card">
                     <h3>Total Services</h3>
@@ -101,7 +101,7 @@ if ($db === null) {
                 <article class="dashboard-card">
                     <h3>Total Requests</h3>
                     <p class="card-value"><?php echo escape((string) $totalRequests); ?></p>
-                    <p class="card-caption">Service request(s) recorded across users, technicians, and admin workflows.</p>
+                    <p class="card-caption">Service requests recorded across the platform.</p>
                 </article>
             </div>
         </section>
@@ -111,7 +111,7 @@ if ($db === null) {
         <div class="card-grid">
             <article class="dashboard-card">
                 <h3>Manage Users</h3>
-                <p>Review all normal user accounts and monitor their registered contact information.</p>
+                <p>Review user accounts and their contact details.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="users.php">Open Users</a>
                 </div>
@@ -125,7 +125,7 @@ if ($db === null) {
             </article>
             <article class="dashboard-card">
                 <h3>Manage Services</h3>
-                <p>Add, update, and safely remove services from the service catalog.</p>
+                <p>Add, update, and safely remove service items.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="services.php">Open Services</a>
                 </div>
@@ -139,14 +139,14 @@ if ($db === null) {
             </article>
             <article class="dashboard-card">
                 <h3>View Reports</h3>
-                <p>See simple totals for completed requests, cancelled requests, revenue, and service demand.</p>
+                <p>See totals for completed jobs, cancelled jobs, revenue, and service demand.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="reports.php">Open Reports</a>
                 </div>
             </article>
             <article class="dashboard-card">
                 <h3>Manage Receipts</h3>
-                <p>Review generated receipts and create missing receipts for completed requests.</p>
+                <p>Review receipts and create any missing ones for completed requests.</p>
                 <div class="dashboard-actions">
                     <a class="btn" href="receipts.php">Open Receipts</a>
                 </div>

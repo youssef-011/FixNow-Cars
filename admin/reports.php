@@ -88,7 +88,7 @@ if ($db === null) {
             <div>
                 <span class="section-tag">Reports</span>
                 <h1>System Reports</h1>
-                <p>Review simple request totals, total revenue, and the most requested services.</p>
+                <p>Review request totals, revenue, and the most requested services.</p>
             </div>
             <span class="status-pill">Admin Reports</span>
         </div>
