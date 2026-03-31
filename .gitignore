@@ -6,6 +6,7 @@ Desktop.ini
 # Editor folders
 .vscode/
 .idea/
+.history/
 
 # Logs
 *.log
@@ -25,7 +26,11 @@ node_modules/
 *.temp
 *.bak
 *.swp
+*.orig
+*.zip
 
 # Local cache folders
 tmp/
 cache/
+coverage/
+.sass-cache/
