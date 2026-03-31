@@ -1,0 +1,31 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+php_errors.log
+error_log
+
+# Local environment files
+.env
+.env.*
+
+# Dependency folders
+vendor/
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Local cache folders
+tmp/
+cache/
